@@ -1,4 +1,5 @@
 #!/bin/sh
+mkdir /home/jiecloud/Desktop/DDNS-Update/ip.txt
 NEW_IP=`curl -s http://ipv4.icanhazip.com`
 CURRENT_IP=`cat /home/jiecloud/Desktop/DDNS-Update/ip.txt`
 if [ "$NEW_IP" != "$CURRENT_IP" ]
