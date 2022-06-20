@@ -1,17 +1,17 @@
 #!/bin/bash
 ## change to "bin/sh" when necessary
 
-auth_email="ChongZhiJie021604@gmail.com"                                       # The email used to login 'https://dash.cloudflare.com'
-auth_method="86b1bf25737551771c1edbe7f7fac2c06f7d3"                                 # Set to "global" for Global API Key or "token" for Scoped API Token
-auth_key="eTOf64ssxs-yltxDGWcieTvrbsFU6n_gb8HiTkPN"                                         # Your API Token or Global API Key
-zone_identifier="c1a868d8fd7d7808faa3488bfcf9c4a1"                                  # Can be found in the "Overview" tab of your domain
-record_name="jiecloud.my.eu.org"                                      # Which record you want to be synced
+auth_email="xxx@xxx.com"                                       # The email used to login 'https://dash.cloudflare.com'
+auth_method="API Token"                                 # Set to "global" for Global API Key or "token" for Scoped API Token
+auth_key="XXX"                                         # Your API Token or Global API Key
+zone_identifier="zone_id"                                  # Can be found in the "Overview" tab of your domain
+record_name="domain"                                      # Which record you want to be synced
 ttl="3600"                                          # Set the DNS TTL (seconds)
 proxy="false"                                       # Set the proxy to true or false
 sitename=""                                         # Title of site "Example Site"
 slackchannel=""                                     # Slack Channel #example
 slackuri=""                                         # URI for Slack WebHook "https://hooks.slack.com/services/xxxxx"
-discorduri="https://discord.com/api/webhooks/956018856307068938/-rJWK6ubyZn5slVnC6v8XgOrRQoBzNSFDMidxsN8k8oCb6XzJsSX4_i8xIPnnl-sA8-v"                                       # URI for Discord WebHook "https://discordapp.com/api/webhooks/xxxxx"
+discorduri=""                                       # URI for Discord WebHook "https://discordapp.com/api/webhooks/xxxxx"
 
 
 ###########################################
